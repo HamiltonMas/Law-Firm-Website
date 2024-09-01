@@ -258,4 +258,43 @@ header .navbar a:hover::before{
         padding: 10px; 
         justify-content: center; 
     }
+    .about-section,
+    .mission,
+    .team {
+      text-align: center;
+      padding: 100px 20px;
+      background-color: rgba(
+        0,
+        0,
+        0,
+        0.5
+      ); /* Semi-transparent background for readability */
+      margin: 50px 20px;
+      border-radius: 10px;
+    }
+
+
 }
+.about-section h1,
+.mission h2,
+.team h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.about-section p,
+.mission p,
+.team p {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin-bottom: 40px;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+
+
+
+ 
