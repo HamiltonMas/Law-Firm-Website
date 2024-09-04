@@ -67,13 +67,15 @@ header .navbar a:hover::before{
     border: none;
     cursor: pointer;
     text-transform: capitalize;
+    border-radius: 12px;
 }
 .home .wrapper{
+
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 7rem;
+    margin-top: 8rem;
 }
 .home .wrapper h1{
     color: #fff;
@@ -84,16 +86,23 @@ header .navbar a:hover::before{
     font-size: 1rem;
     padding: 10px 0;
 }
-.home .wrapper .buttons 
-.buttons{
+.home .wrapper .buttons {
     margin-top: 1rem;
+}
+.btn:hover{
+    background-color: #0f107e;
 }
 .btn2{
     padding: 8px 15px;
     color: #ec9f68;
     border: 2px solid #fff;
+    border-radius: 12px;
 }
-
+.btn2:hover{
+    background-color: #ec9f68;
+    color: #fff;
+    border: 2px solid #ec9f68;
+}
 /*---------------------------Status------------------------*/
 
 .status{
