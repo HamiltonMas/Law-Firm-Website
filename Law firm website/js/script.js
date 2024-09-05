@@ -11,3 +11,19 @@ let menu = document.querySelector('.menubtn');
 menu.onclick = () =>{
     document.querySelector('.navbar').classList.toggle('active');
 }
+let menu = document.querySelector('.menubtn');
+menu.onclick = () =>{
+    document.querySelector('.navbar').classList.toggle('active');
+}
+
+    
+      document.querySelectorAll('.service').forEach(service => {
+        service.addEventListener('click', function() {
+       
+          document.querySelectorAll('.service').forEach(s => s.classList.remove('enlarged'));
+
+          
+          this.classList.toggle('enlarged');
+        });
+      });
+      this.classList.add('enlarged');

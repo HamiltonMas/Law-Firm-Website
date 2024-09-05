@@ -5,7 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <title>About Us</title>
+    <style>
+      h1,
+      h2 {
+        text-align: center;
+        color: dodgerblue;
+      }
+      .team-grid {
+        display: grid;
+        grid-template-columns: repeat(
+          auto-fill,
+          minmax(200px, 1fr)
+        );
+        gap: 20px; 
+        padding: 20px;
+      }
+
+      .team-member {
+        text-align: center; 
+        background-color: #f9f9f9; 
+        padding: 10px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+      }
+
+      .team-member img {
+        width: 100%;
+        height: auto;
+        border-radius: 50%; 
+      }
+
+      .member-name {
+        margin-top: 10px; 
+        font-size: 16px; 
+        color: #333; 
+      }
+      html,
+      body {
+       
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column; 
+      }
+
+      .home {
+        flex: 1; 
+        display: flex;
+        flex-direction: column;
+      }
+    </style>
+
   </head>
+
   <body>
     <section class="home">
       <header>
@@ -43,16 +95,37 @@
 
       <div class="team">
         <h2>Meet Our Team</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl
-          eros, pulvinar facilisis justo mollis, auctor consequat urna.
-        </p>
+        <div class="team-grid">
+          <div class="team-member">
+            <img src="images/pic-1.png" alt="Member Name" />
+            <p class="member-name">Mohlankana Tsoai</p>
+          </div>
+          <div class="team-member">
+            <img src="images/pic-3.png" alt="Member Name" />
+            <p class="member-name">Hamilton Masipa</p>
+          </div>
+          <div class="team-member">
+            <img src="images/pic-2.png" alt="Member Name" />
+            <p class="member-name">Tumisang Thabethe</p>
+          </div>
+          <div class="team-member">
+            <img src="images/pic-2.png" alt="Member Name" />
+            <p class="member-name">Thembelihle Maluka</p>
+          </div>
+          <div class="team-member"></div>
+            <img src="images/pic-1.png" alt="Member Name" />
+            <p class="member-name">Jane Doe</p>
+          </div>
+          <!-- Add more team members as needed -->
+        </div>
       </div>
     </section>
 
+    <footer>
     <div class="copy">
       &copy; BOPAPE EDGER iNCORPORATED| 2024 All rights reserved
     </div>
+  </footer>
 
     <a href="#" class="gotop"><img src="images/arrow-up.svg" alt="" /></a>
 
