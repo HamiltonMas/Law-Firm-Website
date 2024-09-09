@@ -10,12 +10,37 @@
 html{
     scroll-behavior: smooth;
 }
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+
+  .social-icons a:hover {
+    color: dodgerblue; /* Change this to the hover color you want */
+  }
+  .social-icons {
+    text-align: center;
+    padding: 10px;
+    background: #ec9f68;
+  }
+
+  .social-icons a {
+    color: #333;
+    font-size: 20px;
+    margin: 0 10px;
+   
+    transition: color 0.3s;
+  }
+
+
 body{
     position: relative;
     overflow-x: hidden;
 }
 .home{
-    background: linear-gradient(to top, rgba(0,0,0,.5)50%, rgba(0,0,0,.5)100%), url(/logos/logo1.jpg) no-repeat;
+    background: linear-gradient(to top, rgba(0,0,0,.5)50%, rgba(0,0,0,.5)100%), url(../logos/logo1.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     height: 40rem;

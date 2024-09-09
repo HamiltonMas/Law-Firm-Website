@@ -15,7 +15,7 @@ body{
     overflow-x: hidden;
 }
 .home{
-    background: linear-gradient(to top, rgba(0,0,0,.5)50%, rgba(0,0,0,.5)100%), url(/logos/logo1.jpg) no-repeat;
+    background: linear-gradient(to top, rgba(0,0,0,.5)50%, rgba(0,0,0,.5)100%), url(../logos/logo1.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     height: 40rem;
