@@ -4,10 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-    />
+    <link rel="stylesheet" href="css/style2.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>About Us</title>
     <style>
       h1,
@@ -17,44 +15,49 @@
       }
       .team-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-        gap: 20px;
+        grid-template-columns: repeat(
+          auto-fill,
+          minmax(200px, 1fr)
+        );
+        gap: 20px; 
         padding: 20px;
       }
 
       .team-member {
-        text-align: center;
-        background-color: #f9f9f9;
+        text-align: center; 
+        background-color: #f9f9f9; 
         padding: 10px;
         border-radius: 8px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
       }
 
       .team-member img {
         width: 100%;
         height: auto;
-        border-radius: 50%;
+        border-radius: 50%; 
       }
 
       .member-name {
-        margin-top: 10px;
-        font-size: 16px;
-        color: #333;
+        margin-top: 10px; 
+        font-size: 16px; 
+        color: #333; 
       }
       html,
       body {
+       
         margin: 0;
         padding: 0;
         display: flex;
-        flex-direction: column;
+        flex-direction: column; 
       }
 
       .home {
-        flex: 1;
+        flex: 1; 
         display: flex;
         flex-direction: column;
       }
     </style>
+
   </head>
 
   <body>
@@ -70,8 +73,9 @@
         </nav>
 
         <div class="menubtn">
-          <img src="images/menu.svg" alt="" />
+          <img src="images/menu.svg" alt="">
         </div>
+        
       </header>
 
       <div class="about-section">
@@ -110,29 +114,34 @@
             <img src="images/pic-2.png" alt="Member Name" />
             <p class="member-name">Thembelihle Maluka</p>
           </div>
-
+          <div class="team-member"></div>
+            <img src="images/pic-1.png" alt="Member Name" />
+            <p class="member-name">Jane Doe</p>
+          </div>
           <!-- Add more team members as needed -->
         </div>
       </div>
     </section>
 
     <footer>
-      <div class="social-icons">
-        <a href="https://www.facebook.com" target="_blank"
-          ><i class="fab fa-facebook-f"></i
-        ></a>
-        <a href="https://www.twitter.com" target="_blank"
-          ><i class="fab fa-twitter"></i
-        ></a>
-        <a href="https://www.linkedin.com" target="_blank"
-          ><i class="fab fa-linkedin-in"></i
-        ></a>
-        <a href="https://www.instagram.com" target="_blank"
-          ><i class="fab fa-instagram"></i
-        ></a>
-      </div>
       <div class="copy">
-        &copy; BOPAPE EDGER INCORPORATED | 2024 All rights reserved
+        <div class="social-icon">
+          <a href="https://www.facebook.com" target="_blank"
+            ><i class='bx bxl-facebook'></i></i
+          ></a>
+          <a href="https://www.twitter.com" target="_blank"
+            ><i class='bx bxl-twitter' ></i></i
+          ></a>
+          <a href="https://www.linkedin.com" target="_blank"
+            ><i class='bx bxl-linkedin' ></i></i
+          ></a>
+          <a href="https://www.instagram.com" target="_blank"
+            ><i class='bx bxl-instagram' ></i></i
+          ></a>
+
+        </div>
+        
+        copy; BOPAPE EDGER INCORPORATED | 2024 All rights reserved
       </div>
     </footer>
 
