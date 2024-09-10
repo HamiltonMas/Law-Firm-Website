@@ -1,128 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css"
-      integrity="sha384-NvKbDTEnL+A8F/AA5Tc5kmMLSJHUO868P+lDtTpJIeQdGYaUIuLr4lVGOEA1OcMy"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/ContactUs.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-    />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css" 
+    integrity="sha384-NvKbDTEnL+A8F/AA5Tc5kmMLSJHUO868P+lDtTpJIeQdGYaUIuLr4lVGOEA1OcMy" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/ContactUs.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Contact Us</title>
-  </head>
-  <body>
+</head>
+<body>
     <section class="home">
-      <header>
-        <a href="index.html" class="logo"> <img src="logos/logo6.png" /></a>
+        <header>
+            <a href="index.html" class="logo"> <img src="logos/logo6.png" /></a>
+    
+            <nav class="navbar">
+              <a href="index.html">Home</a>
+              <a href="aboutUs.html">About</a>
+              <a href="services.html">Services</a>
+              <a href="contactUs.html">Contact Us</a>
+            </nav>
+    
+            <div class="menubtn">
+              <img src="images/menu.svg" alt="">
+            </div>
+            
+          </header>
 
-        <nav class="navbar">
-          <a href="index.html">Home</a>
-          <a href="aboutUs.html">About</a>
-          <a href="services.html">Services</a>
-          <a href="contactUs.html">Contact Us</a>
-        </nav>
-
-        <div class="menubtn">
-          <img src="images/menu.svg" alt="" />
-        </div>
-      </header>
+          
     </section>
+
+    
 
     <!----------Edit Here-------------->
+    
     <section class="contact">
-      <div class="content">
-        <h2>Contact Us</h2>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis
-          exercitationem commodi ex, asperiores rerum odio possimus. A expedita
-          neque beatae saepe. Dolorum nulla officiis illum, ratione facilis id
-          hic ipsum.
-        </p>
-      </div>
-      <div class="container">
-        <div class="contactInfo">
-          <div class="box">
-            <div class="icon">
-              <i class="fa fa-map-marker" aria-hidden="true"></i>
-            </div>
-            <div class="text">
-              <h3>Address</h3>
-              <p>
-                Lorem ipsum dolor sit, <br />Lorem, ipsum dolor, <br />12345
-              </p>
-            </div>
-          </div>
-          <div class="box">
-            <div class="icon">
-              <i class="fa fa-phone" aria-hidden="true"></i>
-            </div>
-            <div class="text">
-              <h3>Phone</h3>
-              <p>012 345 5678</p>
-            </div>
-          </div>
-          <div class="box">
-            <div class="icon">
-              <i class="fa fa-envelope-o" aria-hidden="true"></i>
-            </div>
-            <div class="text">
-              <h3>Email</h3>
-              <p>Info@loremcompany.co.za</p>
-            </div>
-          </div>
+      
+        <div class="content">
+            <h2>Contact Us</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis exercitationem commodi ex,
+                 asperiores rerum odio possimus. A expedita neque beatae saepe. Dolorum nulla officiis illum, 
+                 ratione facilis id hic ipsum.</p>
         </div>
-        <div class="contactForm">
-          <form>
-            <h2>Send Message</h2>
-            <div class="inputBox">
-              <input type="text" name="" required="required" />
-              <span>FullName</span>
+        
+        <div class="container">
+            <div class="contactInfo">
+                <div class="box">
+                    <div class="icon"><i class='bx bx-map' ></i></div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>Lorem ipsum dolor sit, <br>Lorem, ipsum dolor, <br>12345</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class='bx bx-phone' ></i></div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>012 345 5678</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class='bx bx-envelope' ></i></i></div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>Info@loremcompany.co.za</p>
+                    </div>
+                </div>
             </div>
-            <div class="inputBox">
-              <input type="text" name="" required="required" />
-              <span>Email</span>
-            </div>
-            <div class="inputBox">
-              <textarea required="required"></textarea>
-              <span>Type your message...</span>
-            </div>
-            <div class="inputBox">
-              <input type="submit" name="" value="Send" />
-            </div>
-          </form>
-        </div>
-      </div>
-    </section>
 
+            
+            <div class="contactForm" >
+                <form id="contactForms">
+                    <h2>Send Message</h2>
+                    <div class="inputBox">
+                        <input type="text" id="name" name="name" required>
+                        <span>FullName</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="email" id="email" name="email" required >
+                        <span>Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea id="message" name="message" required></textarea>
+                        <span>Type your message...</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" name="" value="Send">
+                    </div>
+                </form>
+            </div>
+            
+    </section>
+    
+    
+    <section class="map">
+
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3593.8614663218987!2d28.360825174589674!3d-25.742094477364212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e955ee26bf2dfa3%3A0x476c61f871dce8f8!2sMokwadi%20St%2C%20Nellmapius%2C%20Pretoria%2C%200122!5e0!3m2!1sen!2sza!4v1725943269343!5m2!1sen!2sza" 
+      width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+    
     <footer>
-      <div class="social-icons">
-        <a href="https://www.facebook.com" target="_blank"
-          ><i class="fab fa-facebook-f"></i
-        ></a>
-        <a href="https://www.twitter.com" target="_blank"
-          ><i class="fab fa-twitter"></i
-        ></a>
-        <a href="https://www.linkedin.com" target="_blank"
-          ><i class="fab fa-linkedin-in"></i
-        ></a>
-        <a href="https://www.instagram.com" target="_blank"
-          ><i class="fab fa-instagram"></i
-        ></a>
-      </div>
       <div class="copy">
-        &copy; BOPAPE EDGER INCORPORATED | 2024 All rights reserved
+        <div class="social-icon">
+          <a href="https://www.facebook.com" target="_blank"
+            ><i class='bx bxl-facebook'></i></i
+          ></a>
+          <a href="https://www.twitter.com" target="_blank"
+            ><i class='bx bxl-twitter' ></i></i
+          ></a>
+          <a href="https://www.linkedin.com" target="_blank"
+            ><i class='bx bxl-linkedin' ></i></i
+          ></a>
+          <a href="https://www.instagram.com" target="_blank"
+            ><i class='bx bxl-instagram' ></i></i
+          ></a>
+
+        </div>
+        
+        copy; BOPAPE EDGER INCORPORATED | 2024 All rights reserved
       </div>
     </footer>
 
-    <a href="#" class="gotop"><img src="images/arrow-up.svg" alt="" /></a>
+    <a href="#" class="gotop"><img src="images/arrow-up.svg" alt=""></a>
 
-    <script src="js/script.js"></script>
-  </body>
+    <div class="whatsapp">
+      <a href="https://wa.me/0607091508" class="whatsapp_float" target="_blank"></a>
+      <img src="images/R.jpeg" alt="WhatsApp" />
+    </a>
+    </div>
+      
+    
+   
+    <script src="js/MainScript.js"></script>
+</body>
 </html>
